@@ -1,0 +1,58 @@
+css-main-doc {
+    width: 100%;
+    border: none;
+	background-color:green;
+}
+
+.css-doc-section {
+    height: 100%;
+	 width: 100%;
+}
+
+.css-create-button {
+    width : 100%;
+}
+
+.css-header {
+    border-bottom: 1px solid #000000;
+}
+
+.css-form-label {
+    color : white;
+}
+
+.css-form-select {
+    color: #000000;
+}
+section{
+	width:100%;
+}
+.footer{
+  clear: both;
+  width: 100%;
+  height: 50px; 
+  color:white;
+  text-align:center;
+  margin:10px;
+  font-size:1.2em;
+  background-color: rgb(14, 24, 38);
+}
+.boutonDiv a{
+	width:18%;
+}
+.boutonDiv{
+		height:50px;
+		width:100%;
+		background-color:rgb(32,81,88);
+}
+.titre{
+	text-align:center;
+	font-family:;
+	font-weight:bold;
+	color:green;
+}
+#catDiv li{
+		background-color:blue;
+		border:solid 1px green;
+		color:white;
+}

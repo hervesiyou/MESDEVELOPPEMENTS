@@ -1,0 +1,3 @@
+ORDER;IUSER;;;us_login;us_fname;us_lname;us_passwd1;us_passwd2;us_extmail;us_roles
+DOC;IUSER;;;robert ;Abena;Martin;$5$Jvax0r1zahsURmVQ$iwkUyJ1a9B0BFe9oja5iIZOndhnoedhwPrXl7YkMSw8;$5$Jvax0r1zahsURmVQ$iwkUyJ1a9B0BFe9oja5iIZOndhnoedhwPrXl7YkMSw8;martin@gmail.fr;role_designerManuel
+DOC;IUSER;;;isabelle ;Mofor;Tall;$5$Jvax0r1zahsURmVQ$iwkUyJ1a9B0BFe9oja5iIZOndhnoedhwPrXl7YkMSw8;$5$Jvax0r1zahsURmVQ$iwkUyJ1a9B0BFe9oja5iIZOndhnoedhwPrXl7YkMSw8;isabelle@yahoo.fr;role_driverManuel

@@ -1,0 +1,14 @@
+//FAM;profil de famille(PFAM);<specid>;<fldid>;titre;description;family id;famille;;;;;;;;;;;;;;;;;;;;;;;;;
+ORDER;PFAM;;;ba_title;prf_desc;dpdoc_famid;dpdoc_fam;;;;;;;;;;;;;;;;;;;;;;;;;
+DOC;PFAM;PFamilleDocumentBase;;Profil Document de BASE;C'est le profil de base pour la gestion des documents;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PROFIL;PFamilleDocumentBase;:useAccount;;view=core_administrator;view=role_administrateurs;view=role_archiveurs;view=role_communicateurs;view=role_legislateurs;view=role_membres;view=role_visiteurs;edit=core_administrator;edit=role_administrateurs;edit=role_archiveurs;create=core_administrator;create=role_administrateurs;create=role_archiveurs;create=role_communicateurs;create=role_legislateurs;icreate=core_administrator;icreate=role_administrateurs;icreate=role_archiveurs;icreate=role_legislateurs;viewacl=core_administrator;viewacl=role_administrateurs;viewacl=role_archiveurs;viewacl=role_communicateurs;viewacl=role_legislateurs;viewacl=role_membres;viewacl=role_visiteurs;modifyacl=core_administrator;modifyacl=role_administrateurs;modifyacl=role_archiveurs
+//FAM;dossier(DIR);<specid>;<fldid>;titre;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ORDER;DIR;;;ba_title;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DOC;DIR;DIR_GEDFAMILLEDOCUMENTBASE;;DIR_GEDFAMILLEDOCUMENTBASE;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+//;Father;Title;Id;Classe;Logical Name;;;;;;;;;;;;;;;;;;;;;;;;;;;
+BEGIN;;GEDFAMILLEDOCUMENTBASE;;;GEDFAMILLEDOCUMENTBASE;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ICON;gedfamilledocumentbase.png;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DFLDID;DIR_GEDFAMILLEDOCUMENTBASE;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PROFID;PFamilleDocumentBase;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+END;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -1,0 +1,27 @@
+//;Father ;Title;Id;Classe;Logical Name;;;;;;;;;;;
+BEGIN;;;;;GEDFAMILLEDOCUMENTBASE;;;;;;;;;;;
+CLASS;GEDNAMESPACE\GEDFAMILLEDOCUMENTBASE;;;;;;;;;;;;;;;
+//;idattr;idframe;label;T;A;type;ord;vis;need;link;phpfile;phpfunc;elink ;constraint ;option;Commentaires
+ATTR;doc_f_caracteristique;;Caracteristiques ;N;N;frame;90;W;;;;;;;;
+ATTR;doc_f_etat;;Etats;N;N;frame;95;W;;;;;;;;
+ATTR;doc_f_creation;;Creation ;N;N;frame;98;W;;;;;;;;
+ATTR;doc_f_lien;;Liens ;N;N;frame;100;W;;;;;;;;
+ATTR;doc_id;doc_f_caracteristique;Identifiant;N;N;text;130;W;;;;;;;;
+ATTR;doc_subjet;doc_f_caracteristique;Sujet;N;N;longtext;104;W;;;;;;;;
+ATTR;doc_headline;doc_f_caracteristique;Titre;Y;N;text;105;W;;;;;;;;
+ATTR;doc_language;doc_f_caracteristique;Langue;N;N;enum;106;W;;;;francais|Francais,anglais|ENGLISH;;;bmenu=no|eformat=vcheck|multiple=yes;
+ATTR;doc_source;doc_f_caracteristique;Source;N;N;htmltext;107;W;;;;;;;;
+ATTR;doc_state;doc_f_etat;Etat du Document;N;N;enum;108;W;;;;publie|PUBLIE,nonpublie|NON PUBLIE;;;bmenu=no|eformat=vcheck;
+ATTR;doc_observation;doc_f_creation;Observations;N;N;text;109;W;;;;;;;;
+ATTR;doc_attachments;doc_f_lien;Attaches;N;N;file;110;W;;;;;;;;
+ATTR;doc_link;doc_f_lien;Liens du Document;N;N;htmltext;111;W;;;;;;;;
+ATTR;doc_scope;doc_f_creation;Portee;N;N;enum;112;W;;;;public|PUBLIQUE,privee|PRIVEE;;;bmenu=no|eformat=vcheck;
+ATTR;doc_updated_at;doc_f_creation;Derniere Mise a  jour ;N;N;date;125;W;;;;;;;;
+ATTR;doc_created_at;doc_f_creation;Cree le;N;N;date;113;W;;;;;;;;
+ATTR;doc_uploaded_at;doc_f_creation;Uploade le;N;N;date;114;W;;;;;;;;
+ATTR;doc_created_by;doc_f_creation;Cree par;N;N;account;115;W;;;;;;;;
+ATTR;doc_updated_by;doc_f_creation;Mis a jour par;N;N;account;116;W;;;;;;;;
+ATTR;doc_expire_at;doc_f_creation;Expire le;N;N;date;117;W;;;;;;;;
+ATTR;doc_category_id;doc_f_lien;Categorie;N;N;docid('GEDFAMILLEDOCUMENTCATEGORIE');118;W;;;;;;;;
+ATTR;doc_locked;doc_f_etat;Verrouillage;N;N;enum;119;W;;;;verrouille|VERROUILLE,ouvert|OUVERT;;;bmenu=no|eformat=vcheck;
+END;;;;;;;;;;;;;;;;

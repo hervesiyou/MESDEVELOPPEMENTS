@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+}
+
+.element {
+  float: left;
+}
+
+.element-1 {
+  width: 98%;
+  height: 129px;
+  margin-top: 25px;
+  background-color: rgb(27, 1, 211);
+}
+
+.element-2 {
+  position: relative;
+  clear: both;
+  z-index: 0;
+  width: 20%;
+  height: 362px;
+  margin-top: 9px;
+  background-color: rgb(168, 187, 239);
+}
+
+.element-3 {
+  position: relative;
+  z-index: 1;
+  width: 77.25%;
+  height: 1860px;
+  margin: 9px 0 0 0.75%;
+  background-color: rgb(70, 139, 235);
+}
+
+.element-4 {
+  clear: both;
+  width: 98.4166666666%;
+  height: 99px;
+  margin-top: 14px;
+  background-color: rgba(12, 11, 87, 0.71);
+}

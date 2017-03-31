@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GEDFAMILLEDOCUMENTBASE_en\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain;  charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_attachments"
+msgstr "Attaches"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_category_id"
+msgstr "Categorie"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_created_at"
+msgstr "Cree le"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_created_by"
+msgstr "Cree par"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_expire_at"
+msgstr "Expire le"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_f_caracteristique"
+msgstr "Caracteristiques "
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_f_creation"
+msgstr "Creation "
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_f_etat"
+msgstr "Etats"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_f_lien"
+msgstr "Liens "
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_headline"
+msgstr "Titre"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_id"
+msgstr "Identifiant"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_language"
+msgstr "Langue"
+
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_language#anglais"
+msgstr "ENGLISH"
+
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_language#francais"
+msgstr "Francais"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_link"
+msgstr "Liens du Document"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_locked"
+msgstr "Verrouillage"
+
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_locked#ouvert"
+msgstr "OUVERT"
+
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_locked#verrouille"
+msgstr "VERROUILLE"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_observation"
+msgstr "Observations"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_scope"
+msgstr "Portee"
+
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_scope#privee"
+msgstr "PRIVEE"
+
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_scope#public"
+msgstr "PUBLIQUE"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_source"
+msgstr "Source"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_state"
+msgstr "Etat du Document"
+
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_state#nonpublie"
+msgstr "NON PUBLIE"
+
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_state#publie"
+msgstr "PUBLIE"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_subjet"
+msgstr "Sujet"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_updated_at"
+msgstr "Derniere Mise a  jour "
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_updated_by"
+msgstr "Mis a jour par"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTBASE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#doc_uploaded_at"
+msgstr "Uploade le"
+
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTBASE#title"
+msgstr ""
+"#-#-#-#-#  GEDFAMILLEDOCUMENTBASE.pot (GEDFAMILLEDOCUMENTBASE )  #-#-#-#-#\n"
+"GEDFAMILLEDOCUMENTBASE\n"
+"#-#-#-#-#  GEDFAMILLEDOCUMENTBASE.pot (GEDFAMILLEDOCUMENTBASE )  #-#-#-#-#\n"

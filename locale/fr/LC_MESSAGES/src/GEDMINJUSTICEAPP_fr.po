@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GEDMINJUSTICEAPP_fr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-28 13:37+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain;  charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "GEDFAMILLEDOCUMENTBASE:titre"
+msgstr ""
+
+msgid "GEDMINJUSTICEAPP:Basic ACL"
+msgstr ""
+
+msgid "GEDMINJUSTICEAPP:GEDFAMILLEDOCUMENTDEBASE"
+msgstr ""
+
+msgid "GEDMINJUSTICEAPP:GEDMINJUSTICEAPP"
+msgstr "Application de Gestion des Documents du MINJUSTICE"
+
+msgid "GEDMINJUSTICEAPP:document list"
+msgstr ""
+
+msgid "GEDMINJUSTICEAPP:main interface"
+msgstr ""
+
+msgctxt "GEDFAMILLEDOCUMENTBASE"
+msgid "Le document res pecte les dates"
+msgstr ""
+
+msgctxt "GEDFAMILLEDOCUMENTBASE"
+msgid "Tres important de verifier les dates"
+msgstr ""
+
+msgid "coa:All"
+msgstr ""
+
+msgid "coa:Closed"
+msgstr ""
+
+msgid "coa:Create audit"
+msgstr ""
+
+msgid "coa:In progress"
+msgstr ""
+
+msgid "coa:Select an audit"
+msgstr ""
+
+msgid "coa:State"
+msgstr ""
+
+msgid "coa:audits"
+msgstr ""
+
+msgid "coa:disconnect"
+msgstr ""
+
+msgid "coa:search"
+msgstr ""
+
+#. _COMMENT: GEDNAMESPACE\GEDFAMILLEDOCUMENTBASE__WFL (GEDFAMILLEDOCUMENTBASE__WFL.php)
+#. _COMMENT: workflow key
+#. _COMMENT: constant name: e_chargement
+msgid "ged_e1"
+msgstr "Chargement du Document"
+
+#. _COMMENT: GEDNAMESPACE\GEDFAMILLEDOCUMENTBASE__WFL (GEDFAMILLEDOCUMENTBASE__WFL.php)
+#. _COMMENT: workflow key
+#. _COMMENT: constant name: e_reception
+msgid "ged_e2"
+msgstr "Reception du Document"
+
+#. _COMMENT: GEDNAMESPACE\GEDFAMILLEDOCUMENTBASE__WFL (GEDFAMILLEDOCUMENTBASE__WFL.php)
+#. _COMMENT: workflow key
+#. _COMMENT: constant name: e_publier
+msgid "ged_e3"
+msgstr "Publication du Document"
+
+#. _COMMENT: GEDNAMESPACE\GEDFAMILLEDOCUMENTBASE__WFL (GEDFAMILLEDOCUMENTBASE__WFL.php)
+#. _COMMENT: workflow key
+#. _COMMENT: constant name: e_sauvegarde
+msgid "ged_e4"
+msgstr "Sauvegarde du Document"
+
+#. _COMMENT: GEDNAMESPACE\GEDFAMILLEDOCUMENTBASE__WFL (GEDFAMILLEDOCUMENTBASE__WFL.php)
+#. _COMMENT: workflow key
+#. _COMMENT: constant name: t_chargement__reception
+msgid "ged_t1"
+msgstr "Chargement-Reception"
+
+#. _COMMENT: GEDNAMESPACE\GEDFAMILLEDOCUMENTBASE__WFL (GEDFAMILLEDOCUMENTBASE__WFL.php)
+#. _COMMENT: workflow key
+#. _COMMENT: constant name: t_reception__publier
+msgid "ged_t2"
+msgstr "Reception-Publication"
+
+#. _COMMENT: GEDNAMESPACE\GEDFAMILLEDOCUMENTBASE__WFL (GEDFAMILLEDOCUMENTBASE__WFL.php)
+#. _COMMENT: workflow key
+#. _COMMENT: constant name: t_reception__chargement
+msgid "ged_t3"
+msgstr "Reception-Chargement"
+
+#. _COMMENT: GEDNAMESPACE\GEDFAMILLEDOCUMENTBASE__WFL (GEDFAMILLEDOCUMENTBASE__WFL.php)
+#. _COMMENT: workflow key
+#. _COMMENT: constant name: t_chargement__sauvegarde
+msgid "ged_t4"
+msgstr "Chargement-Sauvegarde"

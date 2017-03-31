@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<module xmlns="urn:dynacase:webinst:module/1.0" name="@moduleName@" release="@release@" version="@version@">
+    <description>GEDMINJUSTICEMODULE</description>
+	<requires>
+        <module comp="ge" name="dynacase-core" version="3.2"/>
+		<module name="dynacase-onefam" comp="ge" version="3.2"/>
+		<module name="dynacase-admin-uis" comp="ge" version="1.0"/>
+		<!--module name="dynacase-document-uis" comp="ge" version="1.0"/-->
+		<module name="dynacase-app-switcher" comp="ge" version="1.0"/>
+    </requires>
+
+    <requires>
+        <module comp="ge" name="dynacase-core" version="3.2"/>
+    </requires>
+
+    <post-install>
+        <process command="programs/record_application GEDMINJUSTICEAPP"/>
+		<process command='./wsh.php --api=importDocuments --file=GEDMINJUSTICEAPP/GEDFAMILLEDOCUMENTBASE__STRUCT.csv --csv-separator=&apos;;&apos; --csv-enclosure=&apos;&quot;&apos;'/>
+		<process command='./wsh.php --api=importDocuments --file=GEDMINJUSTICEAPP/GEDFAMILLEDOCUMENTBASE__WFL.csv --csv-separator=&apos;;&apos; --csv-enclosure=&apos;"&apos;'/>
+		<process command='./wsh.php --api=importDocuments --file=GEDMINJUSTICEAPP/GEDFAMILLEDOCUMENTBASE__PARAM.csv --csv-separator=&apos;;&apos; --csv-enclosure=&apos;&quot;&apos;'/>
+		<process command='./wsh.php --api=importDocuments --file=GEDMINJUSTICEAPP/GEDFAMILLEDOCUMENTCATEGORIE__STRUCT.csv --csv-separator=&apos;;&apos; --csv-enclosure=&apos;&quot;&apos;'/>
+		<process command='./wsh.php --api=importDocuments --file=GEDMINJUSTICEAPP/AJOUTDECATEGORIEALAMAIN.csv --csv-separator=&apos;;&apos; --csv-enclosure=&apos;&quot;&apos;'/>
+		<process command='./wsh.php --api=importDocuments --file=GEDMINJUSTICEAPP/GEDFAMILLEDOCUMENTCATEGORIE__PARAM.csv --csv-separator=&apos;;&apos; --csv-enclosure=&apos;&quot;&apos;'/>
+		<process command="./wsh.php --api=setApplicationParameter --appname=CORE --param=CORE_START_APP --value=GEDMINJUSTICEAPP"/>
+
+		<process command='./wsh.php --api=importAccounts --file=GEDMINJUSTICEAPP/accounts.xml'/>
+        <process command="programs/update_catalog"/>
+    </post-install>
+    <post-upgrade>
+        <process command="programs/pre_migration GEDMINJUSTICEAPP"/>
+        <process command="programs/record_application GEDMINJUSTICEAPP"/>
+		<process command='./wsh.php --api=importDocuments --file=GEDMINJUSTICEAPP/GEDFAMILLEDOCUMENTBASE__STRUCT.csv --csv-separator=&apos;;&apos; --csv-enclosure=&apos;&quot;&apos;'/>
+		<process command='./wsh.php --api=importDocuments --file=GEDMINJUSTICEAPP/GEDFAMILLEDOCUMENTBASE__WFL.csv --csv-separator=&apos;;&apos; --csv-enclosure=&apos;"&apos;'/>
+		<process command='./wsh.php --api=importDocuments --file=GEDMINJUSTICEAPP/GEDFAMILLEDOCUMENTBASE__PARAM.csv --csv-separator=&apos;;&apos; --csv-enclosure=&apos;&quot;&apos;'/>
+		<process command='./wsh.php --api=importDocuments --file=GEDMINJUSTICEAPP/GEDFAMILLEDOCUMENTCATEGORIE__STRUCT.csv --csv-separator=&apos;;&apos; --csv-enclosure=&apos;&quot;&apos;'/>
+		<process command='./wsh.php --api=importDocuments --file=GEDMINJUSTICEAPP/AJOUTDECATEGORIEALAMAIN.csv --csv-separator=&apos;;&apos; --csv-enclosure=&apos;&quot;&apos;'/>
+		<process command='./wsh.php --api=importDocuments --file=GEDMINJUSTICEAPP/GEDFAMILLEDOCUMENTCATEGORIE__PARAM.csv --csv-separator=&apos;;&apos; --csv-enclosure=&apos;&quot;&apos;'/>
+		<process command="./wsh.php --api=setApplicationParameter --appname=CORE --param=CORE_START_APP --value=GEDMINJUSTICEAPP"/>
+
+        <process command="programs/post_migration GEDMINJUSTICEAPP"/>
+		
+		<process command='./wsh.php --api=importAccounts --file=GEDMINJUSTICEAPP/accounts.xml'/>
+        <process command="programs/update_catalog"/>
+    </post-upgrade>
+</module>

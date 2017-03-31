@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accounts date="2017-03-20T10:09:50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../XSD/accounts.xsd">
+  <roles>
+			<role id="43">
+			  <reference>role_visiteurs</reference>
+			  <displayName>VisiteurRole</displayName>
+			  <document family="ROLE">
+				<role title="Visiteur de la GED" revision="0" modification-date="2017-03-20T09:59:44" version="" state=""/>
+			  </document>
+			</role>
+			<role>
+						<reference>role_membres</reference>
+						<displayName>MembreRole</displayName>
+						<document family="ROLE">
+						  <role title="Membre de la GED MINJUSTICE(Membre de la GED)"/>
+						</document>
+			</role>
+			<role>
+						<reference>role_administrateurs</reference>
+						<displayName>AdministrateurRole</displayName>
+						<document family="ROLE">
+						  <role title="Administrateur de la GED MINJUSTICE(Administrateur de la GED)"/>
+						</document>
+			</role>    
+			<role>
+						<reference>role_communicateurs</reference>
+						<displayName>CommunicateurRole</displayName>
+						<document family="ROLE">
+						  <role title="Comminicateur de la GED MINJUSTICE(Publieur de Textes)"/>
+						</document>
+			</role> 
+			<role>
+						<reference>role_legislateurs</reference>
+						<displayName>LegislateurRole</displayName>
+						<document family="ROLE">
+						  <role title="Legislateur dans la GED MINJUSTICE (Createur de Textes)"/>
+						</document>
+			</role> 
+			<role>
+						<reference>role_archiveurs</reference>
+						<displayName>ArchiveurRole</displayName>
+						<document family="ROLE">
+						  <role title="Archiveur dans la GED MINJUSTICE(Chargeur et Sauvegardeur de Textes)"/>
+						</document>
+			</role> 
+  
+  </roles>
+  <groups>
+			<group id="2">
+			  <reference>all</reference>
+			  <displayName>Utilisateurs</displayName>
+			  <document family="IGROUP">
+				<igroup name="GDEFAULT" title="Utilisateurs" revision="0" modification-date="2017-03-20T10:05:53" version="" state=""/>
+			  </document>
+			</group>
+			<group id="44">
+			  <reference>visiteurgroupeid</reference>
+			  <displayName>VisiteurGroupe</displayName>
+			  <associatedRoles reset="false">
+				<associatedRole reference="role_visiteurs"/>
+			  </associatedRoles>
+			  <parentGroups reset="false">
+				<parentGroup reference="all"/>
+			  </parentGroups>
+			  <document family="IGROUP">
+				<igroup title="VisiteurGroupe" revision="0" modification-date="2017-03-20T10:06:59" version="" state=""/>
+			  </document>
+			</group>
+						 <group>
+							<reference>membregroupeid</reference>
+							<displayName>MembreGroupe</displayName>
+							<associatedRoles reset="false">
+							  <associatedRole reference="role_membres"/>
+							  <associatedRole reference="role_legislateurs"/>
+							</associatedRoles>
+							<parentGroups reset="false">
+							  <parentGroup reference="all"/>
+							</parentGroups>
+							<document family="IGROUP">
+							  <igroup title="MembreGroupe"/>
+							</document>
+						 </group>
+						 <group>
+							<reference>administrateurgroupeid</reference>
+							<displayName>AdministrateurGroupe</displayName>
+							<associatedRoles reset="false">
+							   <associatedRole reference="role_administrateurs"/>
+							   <associatedRole reference="role_archiveurs"/>
+							   <associatedRole reference="role_communicateurs"/>
+							</associatedRoles>
+							<parentGroups reset="false">
+							  <parentGroup reference="all"/>
+							</parentGroups>
+							<document family="IGROUP">
+							  <igroup title="AdministrateurGroupe"/>
+							</document>
+						 </group>
+  </groups>
+  <users>
+    <user id="1">
+      <login>admin</login>
+      <firstname>Dynacase Platform</firstname>
+      <lastname>Master</lastname>
+      <status activated="true"/>
+      <password crypted="true">$5$mC3EzGPrG8Cqg/vC$MqMq6/FKTWEo6Cdm3zaxz.a8o0IajIBEzajNiXykVBC</password>
+      <parentGroups reset="false">
+        <parentGroup reference="all"/>
+      </parentGroups>
+      <document family="IUSER">
+        <iuser name="USER_ADMIN" title="Master Dynacase Platform" revision="0" modification-date="2017-03-17T20:24:51" version="" state=""/>
+      </document>
+    </user>
+    <user id="3">
+      <login>anonymous</login>
+      <firstname>guest</firstname>
+      <lastname>anonymous</lastname>
+      <status activated="true"/>
+      <password crypted="true">$5$fG9VxyOQ8hLif8nh$iXY2LBadMC1YlKBdvfSIgXSS0CuHD9Cf6FgEPO9B4eC</password>
+      <document family="IUSER">
+        <iuser name="USER_GUEST" title="anonymous guest" revision="0" modification-date="2017-03-17T20:24:51" version="" state=""/>
+      </document>
+    </user>
+    <user id="45">
+      <login>herve</login>
+      <firstname>stephane</firstname>
+      <lastname>herve</lastname>
+      <mail>herve@gmail.com</mail>
+      <status activated="true"/>
+      <password crypted="true">$5$Jvax0r1zahsURmVQ$iwkUyJ1a9B0BFe9oja5iIZOndhnoedhwPrXl7YkMSw8</password>
+      <parentGroups reset="false">
+        <parentGroup reference="all"/>
+        <parentGroup reference="visiteurgroupeid"/>
+      </parentGroups>
+      <document family="IUSER">
+        <iuser title="herve stephane" revision="0" modification-date="2017-03-20T10:07:55" version="" state=""/>
+      </document>
+    </user>
+					<user>
+					  <login>yannick</login>
+					  <firstname>jean</firstname>
+					  <lastname>yannick</lastname>
+					  <mail>yannick@gmail.com</mail>
+					  <status activated="true"/>
+					  <password crypted="true">$5$Jvax0r1zahsURmVQ$iwkUyJ1a9B0BFe9oja5iIZOndhnoedhwPrXl7YkMSw8</password>
+					  <parentGroups reset="false">
+						<parentGroup reference="all"/>
+						<parentGroup reference="administrateurgroupeid"/>
+					  </parentGroups>
+					  <document family="IUSER">
+						<iuser title="yannick jean" revision="0" modification-date="2017-03-20T10:07:55" version="" state=""/>
+					  </document>
+					</user>
+					<user>
+					  <login>simon</login>
+					  <firstname>pierre</firstname>
+					  <lastname>cephas</lastname>
+					  <mail>simon@gmail.com</mail>
+					  <status activated="true"/>
+					  <password crypted="true">$5$Jvax0r1zahsURmVQ$iwkUyJ1a9B0BFe9oja5iIZOndhnoedhwPrXl7YkMSw8</password>
+					  <parentGroups reset="false">
+						<parentGroup reference="all"/>
+						<parentGroup reference="visiteurgroupeid"/>
+					  </parentGroups>
+					  <document family="IUSER">
+						<iuser title="Simon Cephas" revision="0" modification-date="2017-03-20T10:07:55" version="" state=""/>
+					  </document>
+					</user>
+					<user>
+					  <login>jean</login>
+					  <firstname>Ebelle</firstname>
+					  <lastname>Bernard</lastname>
+					  <mail>jean@gmail.com</mail>
+					  <status activated="true"/>
+					  <password crypted="true">$5$Jvax0r1zahsURmVQ$iwkUyJ1a9B0BFe9oja5iIZOndhnoedhwPrXl7YkMSw8</password>
+					  <parentGroups reset="false">
+						<parentGroup reference="all"/>
+						<parentGroup reference="administrateurgroupeid"/>
+					  </parentGroups>
+					  <document family="IUSER">
+						<iuser title="Jean Ebelle" revision="0" modification-date="2017-03-20T10:07:55" version="" state=""/>
+					  </document>
+					</user>
+					<user>
+					  <login>paul</login>
+					  <firstname>bile</firstname>
+					  <lastname>arnold</lastname>
+					  <mail>paul@gmail.com</mail>
+					  <status activated="true"/>
+					  <password crypted="true">$5$Jvax0r1zahsURmVQ$iwkUyJ1a9B0BFe9oja5iIZOndhnoedhwPrXl7YkMSw8</password>
+					  <parentGroups reset="false">
+						<parentGroup reference="all"/>
+						<parentGroup reference="membregroupeid"/>
+					  </parentGroups>
+					  <document family="IUSER">
+						<iuser title="Paul Bile" revision="0" modification-date="2017-03-20T10:07:55" version="" state=""/>
+					  </document>
+					</user>
+					<user>
+					  <login>atango</login>
+					  <firstname>abraham</firstname>
+					  <lastname>ondo</lastname>
+					  <mail>atango@gmail.com</mail>
+					  <status activated="true"/>
+					  <password crypted="true">$5$Jvax0r1zahsURmVQ$iwkUyJ1a9B0BFe9oja5iIZOndhnoedhwPrXl7YkMSw8</password>
+					  <parentGroups reset="false">
+						<parentGroup reference="all"/>
+						<parentGroup reference="membregroupeid"/>
+					  </parentGroups>
+					  <document family="IUSER">
+						<iuser title="Atango Ondo" revision="0" modification-date="2017-03-20T10:07:55" version="" state=""/>
+					  </document>
+					</user>
+					<user>
+					  <login>souley</login>
+					  <firstname>pierre</firstname>
+					  <lastname>oyolo</lastname>
+					  <mail>souley@gmail.com</mail>
+					  <status activated="true"/>
+					  <password crypted="true">$5$Jvax0r1zahsURmVQ$iwkUyJ1a9B0BFe9oja5iIZOndhnoedhwPrXl7YkMSw8</password>
+					  <parentGroups reset="false">
+						<parentGroup reference="all"/>
+						<parentGroup reference="membregroupeid"/>
+					  </parentGroups>
+					  <document family="IUSER">
+						<iuser title="Souley oyolo" revision="0" modification-date="2017-03-20T10:07:55" version="" state=""/>
+					  </document>
+					</user>
+					<user>
+					  <login>ndi</login>
+					  <firstname>agbor</firstname>
+					  <lastname>mbuh</lastname>
+					  <mail>ndi@gmail.com</mail>
+					  <status activated="true"/>
+					  <password crypted="true">$5$Jvax0r1zahsURmVQ$iwkUyJ1a9B0BFe9oja5iIZOndhnoedhwPrXl7YkMSw8</password>
+					  <parentGroups reset="false">
+						<parentGroup reference="all"/>
+						<parentGroup reference="administrateurgroupeid"/>
+					  </parentGroups>
+					  <document family="IUSER">
+						<iuser title="Ndi Mbuh" revision="0" modification-date="2017-03-20T10:07:55" version="" state=""/>
+					  </document>
+					</user>
+					<user>
+					  <login>ekani</login>
+					  <firstname>brice</firstname>
+					  <lastname>tarzan</lastname>
+					  <mail>ekani@gmail.com</mail>
+					  <status activated="true"/>
+					  <password crypted="true">$5$Jvax0r1zahsURmVQ$iwkUyJ1a9B0BFe9oja5iIZOndhnoedhwPrXl7YkMSw8</password>
+					  <parentGroups reset="false">
+						<parentGroup reference="all"/>
+						<parentGroup reference="membregroupeid"/>
+					  </parentGroups>
+					  <document family="IUSER">
+						<iuser title="Ekani Brice" revision="0" modification-date="2017-03-20T10:07:55" version="" state=""/>
+					  </document>
+					</user>
+					<user>
+					  <login>pierre</login>
+					  <firstname>talla</firstname>
+					  <lastname>nicos</lastname>
+					  <mail>pierre@gmail.com</mail>
+					  <status activated="true"/>
+					  <password crypted="true">$5$Jvax0r1zahsURmVQ$iwkUyJ1a9B0BFe9oja5iIZOndhnoedhwPrXl7YkMSw8</password>
+					  <parentGroups reset="false">
+						<parentGroup reference="all"/>
+						<parentGroup reference="administrateurgroupeid"/>
+					  </parentGroups>
+					  <document family="IUSER">
+						<iuser title="Pierre Nicos" revision="0" modification-date="2017-03-20T10:07:55" version="" state=""/>
+					  </document>
+					</user>
+					<user>
+					  <login>marc</login>
+					  <firstname>moussa</firstname>
+					  <lastname>ibrahim</lastname>
+					  <mail>marc@gmail.com</mail>
+					  <status activated="true"/>
+					  <password crypted="true">$5$Jvax0r1zahsURmVQ$iwkUyJ1a9B0BFe9oja5iIZOndhnoedhwPrXl7YkMSw8</password>
+					  <parentGroups reset="false">
+						<parentGroup reference="all"/>
+						<parentGroup reference="administrateurgroupeid"/>
+					  </parentGroups>
+					  <document family="IUSER">
+						<iuser title="Marc Moussa" revision="0" modification-date="2017-03-20T10:07:55" version="" state=""/>
+					  </document>
+					</user>
+					
+	
+  </users>
+</accounts>

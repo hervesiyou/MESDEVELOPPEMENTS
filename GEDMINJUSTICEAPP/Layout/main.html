@@ -1,0 +1,142 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="fr"><![endif]-->
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[TEXT:GEDMINJUSTICEAPP:GEDFAMILLEDOCUMENTDEBASE]</title>
+    <link rel="icon" href="[DYNACASE_FAVICO]"/>
+    <link rel="shortcut icon" href="[DYNACASE_FAVICO]"/>
+    <link rel="stylesheet" href="GEDMINJUSTICEAPP/libs/css/normalize.css"/>
+    <link rel="stylesheet" href="GEDMINJUSTICEAPP/libs/css/foundation.css"/>
+    <link rel="stylesheet" href="GEDMINJUSTICEAPP/libs/css/main.css"/>
+	
+	<link rel="stylesheet" href="GEDMINJUSTICEAPP/libs/css/standardize.css">
+	<link rel="stylesheet" href="GEDMINJUSTICEAPP/libs/css/index-grid.css">
+    <link rel="stylesheet" href="GEDMINJUSTICEAPP/libs/css/receptionindex-grid.css">
+    <link rel="stylesheet" href="GEDMINJUSTICEAPP/libs/css/receptionindex.css">
+    <link rel="stylesheet" href="GEDMINJUSTICEAPP/libs/css/publicationpage-grid.css">
+    <link rel="stylesheet" href="GEDMINJUSTICEAPP/libs/css/archive-grid.css">
+    <link rel="stylesheet" href="GEDMINJUSTICEAPP/libs/css/archive.css">
+    <link rel="stylesheet" href="GEDMINJUSTICEAPP/libs/css/normalize.css">
+    <link rel="stylesheet" href="GEDMINJUSTICEAPP/libs/css/publicationpage.css">
+    <link rel="stylesheet" href="GEDMINJUSTICEAPP/libs/css/receptionindex.css">
+	
+	<link rel="stylesheet" type="text/css" href="[CSS_LINK]" />
+
+</head>
+<body>
+
+<div class="fixed css-header">
+    <nav class="top-bar" data-topbar data-options="sticky_on: large">
+        <ul class="title-area">
+            <li class="name">
+                <h3 class='titre'>
+					<a href="#" class="js-audits">[TEXT:MADIA:GEDFAMILLEDOCUMENTBASE]</a>   [CAT]						
+				</h3>
+            </li>
+        </ul>
+        <section class="top-bar-section">		        
+            <ul class="right">
+                <li class="has-form show-for-large-up">
+                    <a href="#" class="button js-disconnect">
+                        [TEXT:Se deconnecter]
+                    </a>
+                </li>
+            </ul>
+         </section>
+		
+    </nav>
+</div>
+  
+     <div class='boutonDiv'>
+	    <center>
+		        <a href="?app=FDL&action=OPENDOC&famid=GEDFAMILLEDOCUMENTBASE " class="button small css-create-button js-create-button">
+                    [TEXT:Charge un Document]
+                </a>
+				<a href="?app=GEDMINJUSTICEAPP&action=RECOIS&famid=GEDFAMILLEDOCUMENTBASE" class="button small css-create-button js-create-button">
+                    [TEXT:Recois un Document]
+                </a>
+				<a href="?app=GEDMINJUSTICEAPP&action=PUBLIE&famid=GEDFAMILLEDOCUMENTBASE"  class="button small css-create-button js-create-button">
+                    [TEXT:Publie un Document]
+                </a>
+				<a href="?app=GEDMINJUSTICEAPP&action=ARCHIVE&famid=GEDFAMILLEDOCUMENTBASE"  class="button small css-create-button js-create-button">
+                    [TEXT:Archive un Document]
+                </a>
+				<a href="?app=FDL&action=EXPORTFILE&famid=GEDFAMILLEDOCUMENTBASE"  class="button small css-create-button js-create-button">
+                    [TEXT:Telecharger ]
+                </a>
+		</center>
+	</div>
+ 
+<div class="css-main js-main">
+    <div class="off-canvas-wrap docs-wrap" data-offcanvas="">
+        <div class="inner-wrap">
+            <nav class="tab-bar css-main-tab-bar">
+                <section class="left-small">
+                    <a class="left-off-canvas-toggle menu-icon js-document-menu"><span></span></a>
+                </section> 
+                <section class="middle tab-bar-section">
+                    <h5 class="title js-current-frame-title">[TEXT:Selectionner un Document]</h5>
+                </section>
+            </nav>
+ 
+            <aside class="left-off-canvas-menu">
+                <a href="?app=GEDMINJUSTICEAPP&action=multiplication&max=20"
+                   class="button small css-create-button js-create-button">
+                    [TEXT:Table de Multiplication]
+                </a>
+				<a href="?app=GEDMINJUSTICEAPP&action=FOOTER"
+                   class="button small css-create-button js-create-button">
+                    [TEXT:FOOTER]
+                </a>
+				<a href="?app=ONEFAM"
+                   class="button small css-create-button js-create-button">
+                    [TEXT:GESTION]
+                </a>
+                <!--a href="?app=GEDMINJUSTICEAPP&action=OPENDOC&famid=GEDFAMILLEDOCUMENTDEBASE"-->
+                <a href="?app=FDL&action=OPENDOC&famid=GEDFAMILLEDOCUMENTBASE"
+                   class="button small css-create-button js-create-button">
+                    [TEXT:Creer un Document]
+                </a>
+				<!--a href="?app=GEDMINJUSTICEAPP&action=CHARGEMENTACL&famid=GEDFAMILLEDOCUMENTBASE"
+                   class="button small css-create-button js-create-button">
+                    [TEXT:GEDMINJUSTICEAPP:Creer Document]
+                </a-->
+                <span class="js-document-list"></span>
+            </aside>
+ 
+									<section class="main-section css-doc-section">
+										<iframe id="main-doc" name="main-doc" src="" class="css-main-doc"  
+										  style="width:100%; background-color:rgb(93,82,89);">
+										  </iframe>
+									</section> 
+            <a class="exit-off-canvas"></a> 
+        </div>
+    </div>
+	
+	[BLOCK GEDFAMILLEDOCUMENTBASE_RECOIS]
+	
+	[ENDBLOCK GEDFAMILLEDOCUMENTBASE_RECOIS]
+</div>
+<form style="display:none;" action="?app=AUTHENT&action=LOGOUT" method="POST" name="disconnect"
+      id="disconnect">
+    <input type="hidden" name="SeenBefore" value="1">
+    <input type="hidden" name="logout" value="Y">
+</form>
+<footer style='width:100%' class='footer'>
+		<div class=''>
+				&copy; Copyright, Tous droits Reservés
+		</div>
+		
+	[BLOCK FOOTER]
+	
+	[ENDBLOCK FOOTER]
+		
+</footer>
+
+<script type="text/javascript" src="GEDMINJUSTICEAPP/libs/js/jquery.js"></script>
+<script type="text/javascript" src="GEDMINJUSTICEAPP/libs/js/foundation.min.js"></script>
+<script type="text/javascript" src="GEDMINJUSTICEAPP/libs/js/main.js"></script>
+</body>
+</html>

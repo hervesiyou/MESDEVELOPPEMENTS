@@ -1,0 +1,3 @@
+ORDER;IGROUP;grp_id;;grp_name;us_login;grp_roles
+DOC;IGROUP;membregroupeManuelid;;MembreGroupeManuel;membremanuel;Conducteurs Manuel
+DOC;IGROUP;visiteurgroupeManuelid;;VisiteurGroupeManuel;visiteurmanuel;Concepteurs Manuel

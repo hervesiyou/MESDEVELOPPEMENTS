@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GEDFAMILLEDOCUMENTCATEGORIE_fr\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain;  charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTCATEGORIE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTCATEGORIE#cat_descriptif"
+msgstr "Description de la Categorie"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTCATEGORIE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTCATEGORIE#cat_description"
+msgstr "DESCRIPTTION"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTCATEGORIE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTCATEGORIE#cat_id"
+msgstr "Identifiant"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTCATEGORIE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTCATEGORIE#cat_name"
+msgstr "Nom de la Categorie"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTCATEGORIE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTCATEGORIE#cat_parent"
+msgstr "Parent de Cette Categorie"
+
+#: .\GEDMINJUSTICEAPP\GEDFAMILLEDOCUMENTCATEGORIE__STRUCT.csv
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTCATEGORIE#cat_scope"
+msgstr "Portee"
+
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTCATEGORIE#cat_scope#privee"
+msgstr "PRIVEE"
+
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTCATEGORIE#cat_scope#public"
+msgstr "PUBLIQUE"
+
+#, fuzzy
+msgid "GEDFAMILLEDOCUMENTCATEGORIE#title"
+msgstr ""
+"#-#-#-#-#  GEDFAMILLEDOCUMENTCATEGORIE.pot (GEDFAMILLEDOCUMENTCATEGORIE )  #-"
+"#-#-#-#\n"
+"GEDFAMILLEDOCUMENTCATEGORIE\n"
+"#-#-#-#-#  GEDFAMILLEDOCUMENTCATEGORIE.pot (GEDFAMILLEDOCUMENTCATEGORIE )  #-"
+"#-#-#-#\n"
